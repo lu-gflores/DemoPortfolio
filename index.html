@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -12,61 +13,84 @@
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container">
     <!--Nav Link-->
-    <nav class="navbar navbar-light bg-light ">
-      <a class="navbar-brand" href="index.html">George Flores</a>
+    <nav class="navbar navbar-light bg-light " style="border-bottom-style: solid; border-bottom-color:gray;">
+      <a class="navbar-brand mb-0 h1 text-white" style="background-color: rgb(35, 141, 141); padding: 20px;"
+        href="index.html">George
+        Flores</a>
+
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link text-muted" href="index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link text-muted" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link text-muted" href="contact.html">Contact</a>
         </li>
       </ul>
-
     </nav>
 
-    <div class="card col-md-6" style="margin-top: 1rem;">
-      <div class="card-body">
-        <h2 class="card-title">About Me</h2>
-        <hr class="my-4">
-        <img src="images/profile.png" style="width: 18rem; height: 18rem; padding: 1rem;" class="card-img-top rounded float-left" alt="Portrait of George Flores">
-        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, expedita quasi fuga
-          officiis labore quibusdam nulla nesciunt, reiciendis cum facere praesentium, dolore optio consectetur eum
-          atque voluptatem consequuntur? Quis numquam possimus explicabo doloribus aspernatur sunt cupiditate fugit,
-          reiciendis veniam culpa itaque, magnam iusto aliquam aliquid, dolorem debitis omnis. Reprehenderit ipsum
-          iusto, eos recusandae quae dolor nisi voluptates voluptatem eveniet illo repellat maxime corrupti nulla perferendis eum ea
-          consectetur recusandae accusamus voluptatum repudiandae minima officiis. Similique voluptatibus ipsam
-          repudiandae autem reprehenderit eaque, consequatur magni quod! Voluptatem omnis perspiciatis maxime corporis
-          impedit, explicabo assumenda. Omnis harum impedit praesentium, numquam sit eius dolorum! Quo distinctio
-          facilis, harum beatae dolor ipsa ipsum odio totam ad corrupti. Culpa doloremque veritatis quae vitae quod
-          quasi error animi, asperiores sunt, ullam magnam dicta!</p>
-          
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, expedita quasi fuga
-            officiis labore quibusdam nulla nesciunt, reiciendis cum facere praesentium, dolore optio consectetur eum
-            atque voluptatem consequuntur? Quis numquam possimus explicabo doloribus aspernatur sunt cupiditate fugit,
-            reiciendis veniam culpa itaque, magnam</p>
+    <!--About me-->
+    <main class="row" style="margin: 0 auto;">
+      <div class="card col-md-8" style="margin-top: 1rem;">
+
+        <div class="card-body">
+          <h2 class="card-title" style="color: rgb(35, 141, 141);">About Me</h2>
+          <hr class="my-4">
+          <img src="images/profile.png" style="width: 18rem; height: 18rem; padding: 1rem;"
+            class="card-img-top rounded float-left" alt="Portrait of George Flores">
+
+          <p class="card-text">Hi! My name is George Flores. I graduated from the University of North Carolina at
+            Charlotte with a Bachelor's in Computer Science and a minor in Communication
+            studies. I previously worked as a tire technician at Discount Tire during my time at school and have worked
+            there for about 7 years. Currently, I am attending a Coding Bootcamp
+            at UNC Charlotte in pursuit of a developer role so I can break into the technology field.
+          </p>
+
+          <p class="card-text">My hobbies include video games, watching Netflix, and coding! </p>
+        </div>
+
       </div>
+    </main>
 
-    </div>
+    <!-- 
+    <div class="row">
+      <div class="col-md-8 bg-white">
+        <h2 style="color: rgb(35, 141, 141);">About Me</h2>
+        <hr class="my-4">
+        <img src="images/profile.png" style="width: 18rem; height: 18rem; padding: 1rem;" class="float-left"
+          alt="Portrait of George Flores">
 
+        <p>Hi! My name is George Flores. I graduated from the University of North Carolina at
+          Charlotte with a Bachelor's in Computer Science and a minor in Communication
+          studies. I previously worked as a tire technician at Discount Tire during my time at school and have worked
+          there for about 7 years. Currently, I am attending a Coding Bootcamp
+          at UNC Charlotte in pursuit of a developer role so I can break into the technology field.
+        </p>
 
+        <p>My hobbies include video games, watching Netflix, and coding! </p>
 
+      </div>
+      <div class="col-md-4"></div>
 
-
+    </div> -->
   </div>
 
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
+  <footer class="footer bg-secondary ">
 
-      <p class="copyright">© Copyright 2020</p>
-    </div>
+    <p class="text-center text-white">&copy;Copyright 2020.</p>
+
   </footer>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

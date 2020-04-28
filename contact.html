@@ -4,64 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>Contact</title>
 </head>
 
 <body>
-  <!--Nav Link-->
-  <div class="container-fluid " >
-
+  
+  <div class="container">
     <!--Nav Link-->
-    <nav class="navbar navbar-light bg-light" style="margin: 0 auto; padding: 20px;">
-      <a class="navbar-brand" style="background-color: teal;"href="index.html">George Flores</a>
+    <nav class="navbar navbar-light bg-light " style="border-bottom-style: solid; border-bottom-color:gray;">
+      <a class="navbar-brand mb-0 h1 text-white" style="background-color: rgb(35, 141, 141); padding: 20px;"
+        href="index.html">George
+        Flores</a>
+
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link text-muted" href="index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link text-muted" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link text-muted" href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
 
-    <!---Form -->
-    <div class="card col-md-7" style="margin: 1.5rem; padding: 1rem;" >
-      <form>
-        <h1>Contact</h1>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="name" placeholder="John Smith">
-        </div>
+    <br>
+    <!---Form Section-->
+    <main class="row" style="margin: 0 auto;">
+      <div class="card col-lg-7">
 
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="someone@example.com">
-        </div>
+        <form>
+          <h1 style="color:rgb(35, 141, 141)">Contact</h1>
+          <hr class="my-4">
 
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="message" rows="5"></textarea>
-        </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="name" placeholder="John Smith">
+          </div>
 
-        <button type="button" class="btn btn-outline-success">Submit</button>
-      </form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="someone@example.com">
+          </div>
 
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
 
-    </div>
+          <button type="button" style="background-color: rgb(35, 141, 141); margin-bottom: 10px;"
+            class="btn text-white">Submit</button>
+        </form>
+      </div>
     
-  </div>
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
+    </main>
 
-      <p class="copyright">© Copyright 2020</p>
-    </div>
-  </footer>
-  
+
+  </div>
+
+
+  <footer class="footer bg-secondary ">
+    <p class="text-center text-white">&copy;Copyright 2020.</p>
+</footer>
+
+   <!-- jQuery CDN -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ 
+   <!-- Bootstrap JavaScript CDN -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
