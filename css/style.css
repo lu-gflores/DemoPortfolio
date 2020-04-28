@@ -1,7 +1,6 @@
 .container {
     background-color: rgba(231, 222, 222, 0.863);
     padding-bottom: 20%;
-   
 }
 
 footer {
@@ -13,4 +12,9 @@ footer {
     border-top: 5px;
     border-top-style: solid;
     border-top-color: rgb(35, 141, 141);
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+    }
 }
