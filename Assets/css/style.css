@@ -1,8 +1,13 @@
 .container {
-    background-color: rgba(231, 222, 222, 0.863);
     padding-bottom: 20%;
-}
 
+}
+body {
+    background-color: #212121 !important;
+}
+.navbar {
+    background-color: #0D7377;
+}
 footer {
     position: fixed;
     bottom: 0;
@@ -12,7 +17,11 @@ footer {
     border-top: 5px;
     border-top-style: solid;
     border-top-color: rgb(35, 141, 141);
+    background-color: #323232;
 }
+
+
+
 /*
 @media screen and (max-width: 768px) {
     .container {
