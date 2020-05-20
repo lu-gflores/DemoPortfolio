@@ -1,5 +1,7 @@
 # Responsive Portfolio
  
+ Deployed Link: https://lu-gflores.github.io/Portfolio-Repo/
+
  This project involves creating responsive webpages using the Bootstrap CSS framework as well using its components in designing the color scheme with miminal use of the traditional
  CSS. The purpose of this project was learn to how quickly one can create a layout of the webpage as well as making it responsive based on the screen size using Bootstrap in a short amount of time. The images provided in the Assets folder served as the guidelines to which how the pages should look based on their respective width and should respond accordingly. to ensure the webpages match the images provided, I followed the minimal requirements as followed. 
 
