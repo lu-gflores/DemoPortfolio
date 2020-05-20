@@ -3,7 +3,7 @@
 
 }
 body {
-    background-color: #212121 !important;
+    background-color: #323232 !important;
 }
 .navbar {
     background-color: #0D7377;
@@ -17,8 +17,13 @@ footer {
     border-top: 5px;
     border-top-style: solid;
     border-top-color: rgb(35, 141, 141);
-    background-color: #323232;
+    background-color: #0d7377;
 }
+
+.project {
+    margin-bottom: 2rem;
+    width: 18rem; 
+    height: 18rem;
 
 
 
